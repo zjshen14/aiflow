@@ -14,11 +14,11 @@ aiflow/
 │   ├── generate_training_samples.py  # data_generator component
 │   ├── train_model.py                # model_trainer component  
 │   ├── serve_model.py               # model_server & model_inference components
-│   └── components.py                # Component decorator and registry
+│   └── __init__.py                  # Package initialization
 ├── pipelines/           # Pipeline definitions in markdown
 │   └── model_training_pipeline.md  # Example training pipeline
 ├── testdata/           # Isolated pipeline run outputs (excluded from git)
-└── components.py       # Component decorator framework
+└── decorator.py        # Component decorator framework
 ```
 
 ## Key Features
