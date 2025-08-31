@@ -47,12 +47,13 @@ aiflow/
 ## Example Usage
 
 ### Running a Pipeline
-```bash
-# Executes the model training pipeline with automatic run indexing
-python3 -m components.generate_training_samples --num-samples 100 --output testdata/model_training_pipeline/run_N/training_data.json
-python3 -m components.train_model --data testdata/model_training_pipeline/run_N/training_data.json --output testdata/model_training_pipeline/run_N/trained_model.pkl  
-python3 -m components.serve_model --model testdata/model_training_pipeline/run_N/trained_model.pkl --mode batch --samples 5
+Simply tell Claude to run a pipeline:
+
 ```
+run a pipeline defined in pipelines/model_training_pipeline.md
+```
+
+That's it! Claude understands the pipeline definition and executes all steps automatically with proper dependency management and isolated run directories.
 
 ### Component Output
 Each component provides execution metadata:
