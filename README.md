@@ -17,10 +17,7 @@ aiflow/
 │   └── components.py                # Component decorator and registry
 ├── pipelines/           # Pipeline definitions in markdown
 │   └── model_training_pipeline.md  # Example training pipeline
-├── testdata/           # Isolated pipeline run outputs
-│   └── model_training_pipeline/
-│       ├── run_1/      # First execution artifacts
-│       └── run_2/      # Second execution artifacts
+├── testdata/           # Isolated pipeline run outputs (excluded from git)
 └── components.py       # Component decorator framework
 ```
 
