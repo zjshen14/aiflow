@@ -8,7 +8,7 @@ import json
 import os
 from typing import List, Dict, Any
 import time
-from components.components import component
+from . import component
 
 
 @component(

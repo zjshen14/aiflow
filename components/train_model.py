@@ -9,7 +9,7 @@ import os
 import time
 from typing import Dict, Any, List
 import random
-from components.components import component
+from . import component
 
 
 class PseudoModel:

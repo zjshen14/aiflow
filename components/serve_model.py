@@ -11,8 +11,8 @@ from typing import Dict, Any, List
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import threading
 import random
-from components.components import component
-from components.train_model import PseudoModel
+from . import component
+from .train_model import PseudoModel
 
 
 class ModelServer:
